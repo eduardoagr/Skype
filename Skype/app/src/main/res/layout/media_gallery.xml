@@ -1,0 +1,113 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MediaGallery">
+
+    <!--Is a good practice when naming id's, to start with the name of your activity, menu,images_for_recyclertems-->
+    <!--Also is a good idea when designing, to write some dummy text-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Media_List_For_Images"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Media_Image_Msg"
+        tools:context=".Activities.MediaGallery" />
+
+
+    <TextView
+        android:id="@+id/Media_PhotosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="235dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/photos"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Media_VideoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Media_VideoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/videos"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Media_List_For_Videos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Media_PhotosTextView" />
+
+    <TextView
+        android:id="@+id/Media_Image_Msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Media_PhotosTextView" />
+
+    <TextView
+        android:id="@+id/Media_Video_Msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Media_VideoTextView"
+        app:layout_constraintTop_toBottomOf="@+id/Media_VideoTextView" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Media_floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="goHome"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/Media_List_For_Images"
+        app:layout_constraintStart_toStartOf="@+id/Media_List_For_Images"
+        app:layout_constraintTop_toBottomOf="@+id/Media_List_For_Images" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Media_List_For_Videos"
+        style="@style/TwoWayView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Media_VideoTextView" />
+
+</android.support.constraint.ConstraintLayout>

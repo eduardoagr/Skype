@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Is a good practice when naming id's, to start with the name of your activity, menu,images_for_recyclertems-->
+
+    <item android:id="@+id/MainMenu_Add_To_Library"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="@string/add_to_library"
+        app:showAsAction="ifRoom"/>
+</menu>

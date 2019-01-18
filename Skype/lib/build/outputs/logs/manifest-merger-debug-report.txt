@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:3:2-23
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:7:2-10:16
+	android:label
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:9:3-35
+	android:icon
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:8:3-32
+uses-sdk
+ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:12:2-13:31
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:12:2-13:31
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:12:2-13:31
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:12:2-13:31
+INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:12:2-13:31
+	android:targetSdkVersion
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:12:2-13:31
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml:13:3-28
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EG\Documents\Skype\lib\src\main\AndroidManifest.xml
